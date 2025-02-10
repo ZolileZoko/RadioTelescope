@@ -5,7 +5,7 @@ This repository documents the design, simulation, and implementation of a horn a
 
 ## Project Goals
 - Design a horn antenna optimized for radio astronomy frequencies.
-- Simulate the antenna performance using CST, HFSS, or OpenEMS.
+- Simulate the antenna performance using Altair Feko EM software.
 - Build and test the antenna with an SDR (Software Defined Radio).
 - Process collected data to visualize astronomical radio signals.
 
@@ -13,18 +13,17 @@ This repository documents the design, simulation, and implementation of a horn a
 ```
 📂 RadioAstronomy-HornAntenna
 ├── 📁 Antenna_Design          # CAD models, design files, and schematics
-├── 📁 Simulations             # HFSS, CST, or MATLAB simulations
+├── 📁 Simulations             # Altair Feko simulations
 ├── 📁 Data_Collection         # Scripts for capturing and processing signals
 ├── 📁 Documentation           # Design explanations, theory, and references
-├── 📁 Images                  # Photos and diagrams of your setup
-├── 📜 README.md               # Overview of the project
-└── 📜 LICENSE                 # Optional, for open-source sharing
+├── 📁 Images                  # Photos and diagrams of setup
+└── 📜 README.md               # Overview of the project
 ```
 
 ## Tools & Software
-- **HFSS, CST, OpenEMS** → Antenna design and simulation
-- **GNU Radio, Python (SciPy, NumPy, Matplotlib)** → Signal processing
-- **RTL-SDR, HackRF** → Radio signal reception
+- **Altair Feko** → Antenna design and simulation
+- **GNU Radio, Matlab** → Signal processing
+- **RTL-SDR,** → Radio signal reception
 
 ## Getting Started
 1. Clone the repository:
