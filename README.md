@@ -28,7 +28,7 @@ This repository documents the design, simulation, and implementation of a horn a
 ## Getting Started
 1. Clone the repository:
    ```sh
-   git clone https://github.com/YourUsername/RadioAstronomy-HornAntenna.git
+   git clone https://github.com/ZolileZoko/RadioAstronomy-HornAntenna.git
    ```
 2. Check the `Documentation` folder for design details and setup instructions.
 3. Follow the `Data_Collection` scripts to acquire and analyze radio signals.
